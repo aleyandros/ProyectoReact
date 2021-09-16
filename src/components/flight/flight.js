@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../../Styles/flight.css";
+import classes from "./Flight.module.css";
 export default function Flight(props) {
   const [priceEdited, setPriceEdited] = useState(props.price);
   const [timesAdded, setTimesAdded] = useState(1);
@@ -20,15 +20,15 @@ export default function Flight(props) {
     }
   };
   return (
-    <div className="flightCard">
-      <div className="imageCard">
-        <img src={props.img} />
+    <div className={classes["flightCard"]}>
+      <div className={classes["imageCard"]}>
+        <img src={props.img} alt="Lugar" />
       </div>
-      <div className="infoCard">
+      <div className={classes["infoCard"]}>
         <h2> {props.title} </h2>
         <p> {props.fromTo} </p>
         <p> {priceEdited}$ </p>
-        <div className="buttonGroup">
+        <div className={classes["buttonGroup"]}>
           <input onClick={() => minus()} type="button" value="-" />
           <input onClick={() => plus()} type="button" value="+" />
           {timesAdded}
