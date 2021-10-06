@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Shop from "./components/Flight/Shop";
+import Shop from "./components/Shop/Shop";
 import Home from "./components/Home/Home";
 import Profile from "./components/User/User";
 import ContactUs from "./components/ContactUs/ContactUs";
