@@ -2,3 +2,38 @@
   margin-top: 90px;
   margin-left: 150px;
 }
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgb(0, 0, 0);
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: rgb(0, 0, 0);
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: #009aa0;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin: 4px auto;
+  margin-left: 0px;
+  color: #fff;
+  background: #009aa0;
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}

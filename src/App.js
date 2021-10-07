@@ -6,6 +6,7 @@ import Profile from "./components/User/User";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Navbar from "./components/Navbar/Navbar";
 
+
 function App() {
   return (
     <Router>
