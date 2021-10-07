@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classes from "./Shop.module.css";
-import Flight from "../Flight/Flight";
+import Flight from "../flight/flight";
 import axios from "axios";
 
 class Shop extends Component {
