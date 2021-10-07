@@ -1,0 +1,79 @@
+.Container {
+  margin-top: 35px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+}
+
+.subcontainer {
+  height: 20px;
+  border-top: solid;
+  border-color: #009aa0;
+}
+
+.icon-individually1 {
+  cursor: pointer;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-individually1:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  padding: 13px;
+  font-size: 20px;
+  border-radius: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  padding: 13px;
+  font-size: 20px;
+  border-radius: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-google {
+  background: #ffffff;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-width: 0.1px;
+  padding: 13px;
+  font-size: 20px;
+  border-radius: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-instagram {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  color: white;
+  padding: 13px;
+  font-size: 20px;
+  border-radius: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
